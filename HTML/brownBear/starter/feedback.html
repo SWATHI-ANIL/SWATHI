@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Feedback Form</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.lovepik.com/element/40149/2541.png_1200.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Brown Bear</a>
+      <a href="./feedback.html">Feedback</a>
+    </nav>
+    <h1>Feedback Form</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>User Info</legend>
+
+        <div>
+          <label for="username">User name</label>
+          <input type="text" id="username" />
+        </div>
+        <br />
+
+        <div>
+          <label for="useremail">User email</label>
+          <input type="email" id="useremail" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="age">Age </label
+          ><input id="age" type="number" min="18" max="30" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="date">Birth day </label
+          ><input id="date" name="date" type="date" min="2022-01-30" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="address">Address </label
+          ><textarea id="address" rows="5" cols="30"></textarea>
+        </div>
+
+        <br />
+
+        <div>
+          <label for="photo">Profile Pic </label
+          ><input id="photo" name="photo" type="file" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="password">Password </label
+          ><input id="password" name="password" type="password" required />
+        </div>
+
+        <br />
+
+        <p>What is your gender?</p>
+        <input name="xuz" id="male" type="radio">
+        <label for="male">Male</label>
+
+        <input name="xuz" id="female" type="radio">
+        <label for="female">Female</label>
+
+        <input name="xuz" id="na" type="radio">
+        <label for="na">N/A</label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Preference</legend>
+
+        <div>
+            Favorite Food
+
+            <div>
+                <input id="apple" type="checkbox">
+                <label for="apple">Apple</label>
+            </div>
+            <div>
+                <input id="banana" type="checkbox">
+                <label for="banana">Banana</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="pizza-size">Pizza size</label>
+            <!-- dropdown -->
+            <!-- multiple attr multi-select -->
+            <select name="pizza-size-input" id="pizza-size" >
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="large">large</option>
+                <option value="small1">small1</option>
+                <option value="medium2">medium2</option>
+                <option value="large3">large3</option>
+                <option value="small11">small11</option>
+                <option value="medium22">medium22</option>
+                <option value="large33">large33</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="icecream">Choose an ice cream flavor:</label>
+            <input list="ice-cream-flavors">
+            <datalist id="ice-cream-flavors">
+                <option value="Chocolate">Chocolate Ice cream</option>
+                <option value="Coconut">Coconut Ice cream</option>
+                <option value="Mint">Mint Ice cream</option>
+                <option value="Strawberry">Strawberry Ice cream</option>
+                <option value="Vanilla">Vanilla Ice cream</option>
+              </datalist>
+        </div>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

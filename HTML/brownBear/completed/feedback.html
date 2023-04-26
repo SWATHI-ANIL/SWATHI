@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.lovepik.com/element/40149/2541.png_1200.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Brown Bear</a>
+      <a href="./feedback.html">Feedback</a>
+    </nav>
+    <h1>Feedback Form</h1>
+    <form action="" method="get" name="user survey">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <!-- text input -->
+        <div>
+          <label for="name">User name </label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <!-- text input -->
+
+        <br />
+
+        <!-- email input -->
+        <div>
+          <label for="email">User email </label
+          ><input id="email" name="email" type="email" required />
+        </div>
+        <!-- email input -->
+
+        <br />
+
+        <!-- number input -->
+        <div>
+          <label for="age">Age </label
+          ><input id="age" name="age" type="number" min="1" max="100" />
+        </div>
+        <!-- number input -->
+
+        <br />
+
+        <!-- date input -->
+        <div>
+          <label for="date">Birth day </label
+          ><input id="date" name="date" type="date" min="2022-01-30" />
+        </div>
+        <!-- date input -->
+
+        <br />
+
+        <!-- textarea -->
+        <div>
+          <label for="address">Address </label
+          ><textarea name="address" id="address" cols="30" rows="5"></textarea>
+        </div>
+        <!-- textarea -->
+
+        <br />
+
+        <!-- file -->
+        <div>
+          <label for="photo">Profile Pic </label
+          ><input id="photo" name="photo" type="file" accept="image/png" />
+        </div>
+        <!-- file -->
+
+        <br />
+
+        <!-- radio input -->
+        <div>
+          <span>Gender</span>
+
+          <br />
+
+          <input id="male" name="gender" value="male" type="radio" />
+          <label for="male">Male</label>
+
+          <input id="female" name="gender" value="female" type="radio" />
+          <label for="female">Female</label>
+
+          <input
+            id="not-to-say"
+            name="gender"
+            value="not-to-say"
+            type="radio"
+          />
+          <label for="not-to-say">Prefer not to say</label>
+        </div>
+        <!-- radio input -->
+
+        <br />
+
+        <!-- password input -->
+        <div>
+          <label for="password">Password </label
+          ><input id="password" name="password" type="password" required />
+        </div>
+        <!-- password input -->
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <!-- checkbox input -->
+        <div>
+          Favorite Food
+          <div>
+            <input id="apple" name="apple" type="checkbox" />
+            <label for="apple">Apple </label>
+          </div>
+          <div>
+            <input id="banana" name="banana" type="checkbox" />
+            <label for="banana">Banana </label>
+          </div>
+        </div>
+        <!-- checkbox input -->
+
+        <br />
+
+        <!-- select -->
+        <div>
+          <label for="pizzaSize">Pizza size </label>
+          <select id="pizzaSize" name="pizzaSize">
+            <option value="small">Small</option>
+            <option value="large" label="Large"></option>
+            <option value="medium" label="medium" disabled></option>
+          </select>
+        </div>
+        <!-- select -->
+
+        <br />
+
+        <!-- multi-select -->
+        <div>
+          <label for="hobbies">Hobbies</label>
+          <select id="hobbies" name="hobbies" multiple>
+            <option value="dancing">Dancing</option>
+            <option value="sports" label="Sports"></option>
+            <option value="gaming" label="Gaming"></option>
+            <option value="coding" label="Coding"></option>
+          </select>
+        </div>
+        <!-- multi-select  -->
+
+        <br />
+
+        <!-- datalist -->
+        <label for="ice-cream-choice">Choose an ice cream flavor:</label>
+        <input
+          list="ice-cream-flavors"
+          id="ice-cream-choice"
+          name="ice-cream-choice"
+        />
+
+        <datalist id="ice-cream-flavors">
+          <option value="Chocolate"></option>
+          <option value="Coconut"></option>
+          <option value="Mint"></option>
+          <option value="Strawberry"></option>
+          <option value="Vanilla"></option>
+        </datalist>
+        <!-- datalist -->
+
+        <br />
+      </fieldset>
+
+      <br />
+
+      <!-- buttons -->
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <!-- buttons -->
+    </form>
+
+    <footer>
+      <p>
+        Author: Shihab
+        <a href="mailto:sus@example.com">sus@example.com</a>
+      </p>
+      <p>&copy; Copyright 2023 HTML.am</p>
+    </footer>
+    
+  </body>
+</html>

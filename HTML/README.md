@@ -1,0 +1,90 @@
+1. World Wide Web
+2. What is HTML. [First website](http://info.cern.ch/hypertext/WWW/TheProject.html)
+3. HTML element
+    - opening tag, content, closing tag
+    - self closing element
+    - nested element
+4. `<head></head>` and `<body></body>`
+5. HTML structure
+6. Tags
+    - `<h1></h1> ... <h6></h6>`
+    - `<div></div>` 
+        - "division"
+        - for applying custom style
+        - alternative is `<section></section>`
+    - attributes
+        - added to opening tag
+        - to pass data or change behaviour of the element
+        - any number of attributes
+    - displaying text
+        - `<p></p>`
+            - block of plain text
+        - `<span></span>`
+            - used to separate small pieces of content that are on the same line as other content
+    - styling text using HTML
+        - `<em></em>` 
+            - emphasize
+        - `<strong></strong>` 
+            - highlight text
+    - `<br/>`
+        - line break
+    - `<ul></ul>`
+        - a list without particular order
+        - list items with a bullet point
+        - `<li></li>` is used to describe an item in the list
+    - `<ol></ol>`
+        - list has an order
+        - by default it is numbered
+        - for example, steps to be followed
+    - `<img/>` 
+        - alt
+            - should be description of image
+            - uses
+                - SEO
+                - accessibility
+                - in case of image load failure
+    - `<video></video>`
+        - `<track></track>` used for caption, subtitle and meta data
+    - `<a></a>`
+        - href
+            - mailto
+            - section
+            - absolute path
+            - relative path
+        - target
+            - _blank
+    - `<footer></footer>`
+    - entity name and code
+    - `<form></form>`
+        - action and method
+        - `<input></input>` 
+            - type
+                - text
+                - number
+                - date
+                - password
+                - email
+                - file
+                - radio
+                - checkbox
+            - id
+            - name
+            - required
+            - value
+            - placeholder
+        - `<label></label>`
+            - for
+        - `<textarea></textarea>`
+        - `<select></select>`
+        - `<datalist></datalist>`
+        - `<fieldset></fieldset>`
+        - `<button></button>`
+            - type
+                - submit
+                - reset
+    - `<table></table>`
+        - `<thead></thead>`
+        - `<tbody></tbody>`
+        - `<tr></tr>`
+        - `<th></th>` table header
+        - `<td></td>` table data

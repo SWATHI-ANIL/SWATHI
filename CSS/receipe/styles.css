@@ -1,0 +1,43 @@
+/* tag */
+img {
+  height: 150px;
+}
+/* tag */
+
+/* class */
+.description {
+  font-size: 20px;
+}
+/* class */
+
+/* id */
+#cook-time {
+  font-weight: bold;
+}
+/* id */
+
+/* descendant selector */
+.ingredients li {
+  list-style: square;
+}
+
+.citation a.external-link {
+  color: SeaGreen;
+}
+/* descendant selector */
+
+/* chaining */
+p.time {
+  color: gray;
+}
+/* chaining */
+
+
+/* multiple selectors */
+h1,
+h2,
+p,
+li {
+  font-family: Helvetica;
+}
+/* multiple selectors */

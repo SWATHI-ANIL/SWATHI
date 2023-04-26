@@ -1,0 +1,79 @@
+/* h1 {
+  color: brown;
+  border: 1px solid red;
+  background-color: yellow;
+}
+p {
+  color: red;
+  text-decoration: underline;
+  font-style: italic;
+}
+ul {
+  list-style: decimal;
+}
+li {
+  font-weight: bold;
+} */
+
+/* universal selector */
+/* * {
+  color: red;
+  background-color: aqua;
+  border: 1px solid black;
+} */
+
+/* li {
+  color: red;
+}
+
+.blue_text{
+    color:blue;
+}
+
+.bold_text{
+    font-weight: bold;
+}
+
+.underline_text{
+    text-decoration: underline;
+} */
+
+/* p {
+  color: green;
+  font-weight: 500;
+}
+
+#unique{
+    font-style: italic;
+    color: gray;
+    text-decoration: underline;
+} */
+
+[data-name] {
+  color: red;
+}
+
+[data-name="queen"] {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+p:hover {
+  color: blue;
+}
+
+button:hover {
+  border-color: red;
+}
+
+button:disabled{
+    background-color: crimson;
+}
+
+input:active {
+  border-color: yellow;
+}
+

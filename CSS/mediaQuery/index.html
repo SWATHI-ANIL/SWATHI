@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <!-- <link rel="stylesheet" href="defaultStyle.css" /> -->
+
+    <style>
+      @import url("defaultStyle.css") screen;
+
+      @media screen and (min-width: 950px) {
+        div {
+          background-color: green;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        div {
+          background-color: red;
+        }
+      }
+
+      p {
+        color: blue;
+      }
+
+      @media screen and (prefers-color-scheme: dark) {
+        p {
+          color: black;
+        }
+      }
+
+      @media print {
+        div {
+          background-color: skyblue;
+        }
+        p {
+          text-decoration: underline;
+          background-color: orange;
+          padding: 1rem 1.5rem;
+          border-radius: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>We are learning media query 🎉</p>
+    </div>
+  </body>
+</html>

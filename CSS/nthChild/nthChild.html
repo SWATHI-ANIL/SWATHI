@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nth child</title>
+    <style>
+      p {
+        font-weight: bold;
+      }
+      li{
+        margin-block: 10px;
+      }
+
+      li:nth-child(3n+1) {
+        border: 2px solid orange;
+      }
+
+      li:nth-child(even) {
+        background-color: lightyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <p>NBA players with most championships:</p>
+    <ul>
+      <li>Bill Russell</li>
+      <li>Sam Jones</li>
+      <li>Tom Heinsohn</li>
+      <li>K. C. Jones</li>
+      <li>Satch Sanders</li>
+      <li>John Havlicek</li>
+      <li>Jim Loscutoff</li>
+      <li>Frank Ramsey</li>
+      <li>Robert Horry</li>
+    </ul>
+  </body>
+</html>

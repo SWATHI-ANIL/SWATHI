@@ -9,16 +9,39 @@
       p {
         font-weight: bold;
       }
-      li{
+      li {
         margin-block: 10px;
       }
 
-      li:nth-child(3n+1) {
+      /* -------------------------------------- */
+      /* li{
+        display: none;
+      } */
+
+      li:first-of-type{
+        color:red;
+      }
+
+      li:last-of-type{
+        color:blue;
+      }
+
+      li:nth-child(1) {
         border: 2px solid orange;
       }
 
       li:nth-child(even) {
         background-color: lightyellow;
+      }
+
+      /* -------------------------------------- */
+
+      section {
+        display: none;
+      }
+
+      section h2:nth-child(1) {
+        color: blue;
       }
     </style>
   </head>
@@ -35,5 +58,29 @@
       <li>Frank Ramsey</li>
       <li>Robert Horry</li>
     </ul>
+
+    <section>
+      <h2>Space</h2>
+      <h2>Galaxy</h2>
+      <h2>Universe</h2>
+      <h2>Star</h2>
+      <h2>Sun</h2>
+      <h2>Mars</h2>
+      <h2>Planets</h2>
+      <h2>Moon</h2>
+      <h2>Satellite</h2>
+    </section>
+    <hr />
+    <section>
+      <h2>India</h2>
+      <h2>UK</h2>
+      <h2>Russia</h2>
+      <h2>Japan</h2>
+      <h2>China</h2>
+      <h2>Korea</h2>
+      <h2>Kenya</h2>
+      <h2>France</h2>
+      <h2>Holland</h2>
+    </section>
   </body>
 </html>

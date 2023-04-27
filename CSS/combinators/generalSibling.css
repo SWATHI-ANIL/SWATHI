@@ -1,4 +1,4 @@
-/* only selects siblings AFTER div */
+/* only selects siblings AFTER selector1 */
 div ~ p {
   color: red;
 }

@@ -49,7 +49,7 @@ li {
     text-decoration: underline;
 } */
 
-[data-name] {
+/* [data-name] {
   color: red;
 }
 
@@ -75,5 +75,17 @@ button:disabled{
 
 input:active {
   border-color: yellow;
+} */
+
+li[data-name="king"]{
+  color:green;
 }
 
+label[for="email"]{
+  color:green;
+}
+
+li[data-name="king"],
+label[for="email"]{
+  color:green;
+}

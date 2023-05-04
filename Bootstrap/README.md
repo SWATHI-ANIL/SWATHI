@@ -1,0 +1,12 @@
+- what is Bootstrap
+    - CSS, HTML and JS
+- how to add
+- components
+    - navbar
+    - grid system
+        - row 
+        - col
+    - container
+    - breakpoint
+    - carousel
+    - link to another page and within a section

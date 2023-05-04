@@ -1,0 +1,136 @@
+/* POSITION AND ORDER */
+
+/* 
+add a color to p
+change link:css order
+*/
+p {
+  /* color: blueviolet; */
+}
+
+/* 
+add <style><style>
+*/
+
+/* 
+move link to p 
+*/
+
+/* ORIGIN */
+/* 
+user agent style overridden by authored CSS
+authored CSS overridden by !important authored CSS
+add !important to <style> rule
+latest !important rule win
+*/
+p {
+  /* color: blueviolet; */
+}
+
+/* IMPORTANCE */
+
+/* 
+animate rule over normal
+add animation
+remove all !important rules
+*/
+@keyframes colorize {
+  /* from {
+    color: black;
+  }
+
+  to {
+    color: yellowgreen;
+  } */
+
+  /* 0% {
+    color: red;
+  }
+  100% {
+    color: chocolate;
+  } */
+}
+
+p {
+  /* animation-duration: 10s;
+  animation-name: colorize;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+}
+
+/* 
+add !important rule
+*/
+p {
+  /* color: cornflowerblue; */
+}
+
+/* SPECIFICITY */
+
+/* add color to body */
+body {
+  /* color: blue; */
+}
+
+/* p color */
+p {
+  /* color: red; */
+}
+
+/* class color */
+.para {
+  /* color: green; */
+}
+
+/* id color */
+#para1 {
+  /* color: yellowgreen; */
+}
+
+/* change order and show */
+
+/* try adding some style in <style> */
+
+/* inline style */
+
+/* !important  to # -> body */
+
+/* SCORING */
+
+/* style with tag, class and tag.class */
+/* 0-0-1 */
+p {
+  color: tomato;
+}
+
+/* 0-1-0 */
+.para{
+    color: violet;
+}
+
+/* 0-1-1 */
+p.para {
+  color: blueviolet;
+}
+
+/* change order to show for same specificity score order matters */
+/* 0-1-1 */
+p:hover{
+    color:goldenrod
+}
+
+/* 0-2-0 */
+p[name='my-para'].para{
+    color:orange;
+}
+
+/* !important */
+/* 1-0-0-0-0 */
+*{
+    color: black !important;
+}
+
+
+
+
+

@@ -45,11 +45,17 @@
 8. background image
 9. !important
 
+# Browser inspector tools
+
+- HTML
+- CSS
+
 # Media queries
 
 - @media
 - media type: print and screen
-- media feature: min-width, max-width, prefers-color-scheme
+- media feature: min-width, max-width,min-height,max-height,orientation, prefers-color-scheme
+- logical operators `if`,`and` and `not`
 
 # CSS units
 
@@ -65,31 +71,52 @@
     - rem
     - em
 - color
+
   - color keyword
   - hex
   - rgb and rgba
   - hsl and hsla
 
-# Box model
-
-- margin
-- padding
-- border
-
 # [Specificity](https://specifishity.com/)
-
+- inheritance
 - combining
 - overriding
 
-# Positioning
+# Box model
 
-- block
-- inline
-- relative
-- static
-- absolute
-- sticky
-- fixed
+- width and height
+- padding
+  - shorthand
+- border
+  - shorthand
+  - border-radius
+- margin
+  - shorthand
+  - auto
+  - margin-collapse
+- resetting default
+
+- overflow
+  - min-_,max-_
+  - scroll, hidden, visible
+  - min-content, max-content, fit-content
+- visibility
+  - hidden vs display:none
+  - collapse
+  - visible
+
+# Positioning
+- flow of element; left -> right, top -> bottom
+- display
+  - block
+  - inline
+- position
+  - static
+  - relative
+  - absolute
+  - fixed
+  - sticky
+- z-index
 
 # [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 

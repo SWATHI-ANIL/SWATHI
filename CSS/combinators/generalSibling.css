@@ -2,3 +2,7 @@
 div ~ p {
   color: red;
 }
+
+p ~ div {
+  background-color: green !important;
+}

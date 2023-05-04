@@ -1,3 +1,7 @@
-#outer > p {
+#outer > h2 {
   color: red;
+}
+
+#inner > section{
+  background-color: aqua;
 }

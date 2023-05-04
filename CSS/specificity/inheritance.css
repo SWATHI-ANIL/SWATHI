@@ -1,0 +1,24 @@
+/* INHERITANCE */
+/* 
+show default styles in dev tools
+non-inherited values
+initial values
+*/
+
+/* 
+add some style to body
+inherited values
+
+all set values are not inherited by child from parent
+border not inherited
+*/
+body{
+    /* color: red; */
+    /* text-align: center; */
+
+    /* border: 1px solid green; */
+}
+
+
+
+

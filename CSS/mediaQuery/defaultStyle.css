@@ -14,5 +14,45 @@ div{
     align-items: center;
     justify-content: center;
 }
+/* IF */
+/* @media (min-width:600px){
+    body{
+        background-color: green;
+    }
+    p{
+        color: white;
+    }
+}
+@media (max-width:600px){
+    body{
+        background-color: red;
+    }
+    p{
+        color: white;
+    }
+}
+@media (min-height:200px){
+    p{
+        color: blue
+    }
+} */
+
+/* OR */
+/* @media (min-width:600px), (min-height:200px){
+    body{
+        background-color: green;
+    }
+    p{
+        color: white;
+    }
+} */
+
+/* AND */
+@media screen and (orientation:portrait){
+    body{
+        background-color: yellow;
+    }
+}
+
          
  

@@ -1,0 +1,70 @@
+/* 
+INLINE
+give bg to strong
+add width and height
+they will not work
+
+- only take width required for content
+- will share horizontal space with neighbouring elements
+*/
+strong {
+  background-color: aqua;
+  /* width: 300px; */
+  /* height: 300px; */
+}
+
+/* 
+add display block to strong
+new line and fill the whole width
+*/
+strong {
+  /* display: block; */
+}
+
+/* 
+BLOCK
+
+add one more p
+give bg to p
+add width and height
+it should reflect
+
+- take up the entire width irrespective of content width
+- can't share horizontal space with neighbouring elements
+- can set height and width
+- each new element need a new line
+*/
+p:first-of-type {
+  background-color: bisque;
+  /* width: 200px; */
+  /* height: 500px; */
+}
+p:last-of-type {
+  background-color: chartreuse;
+}
+
+/* 
+add inline to p
+see how p are displayed in same line
+*/
+p {
+  /* display: inline; */
+}
+
+/* 
+INLINE BLOCK 
+add three p
+add width calc(100% / 4)
+add display inline-block
+
+- can share horizontal space
+- can set explicit width and height as well
+*/
+
+p:nth-child(2){
+    background-color: rgb(141, 141, 220);
+}
+p{
+    display: inline-block;
+    width: calc(100% / 4);
+}

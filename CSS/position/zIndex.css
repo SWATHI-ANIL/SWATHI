@@ -1,0 +1,72 @@
+/* bg color container */
+.container{
+    background-color: burlywood;
+    padding-block: 20px;
+}
+
+/* 
+bg color box 2
+bg color box 3
+add margin-top: -150px
+*/
+.box-2{
+    background-color: blue;
+    margin-top: -150px;
+
+}
+
+.box-3{
+    background-color: yellow;
+    margin-top: -150px;
+}
+
+/* add box-shadow */
+div div.box-1{
+    box-shadow: 0 0 50px 10px rgb(246, 247, 247);
+}
+
+div div.box-2{
+    box-shadow: 0 0 50px 10px red;
+}
+
+div div.box-3{
+    box-shadow: 0 0 50px 10px rgb(3, 252, 69);
+}
+
+/* 
+add position relative to box 1 
+box 1 appear on top
+"first non-positioned elements are layed out
+and positioned elements are layed out"
+*/
+.box-1{
+    position: relative;
+}
+
+/* 
+now add relative to box 2
+"dom over won"
+*/
+.box-2{
+    position: relative;
+}
+
+/* 
+z-index to box 1
+*/
+.box-1{
+    z-index:1;
+}
+
+/* 
+z-index to box 3
+add position relative
+"only works on positioned elements"
+*/
+.box-3{
+    z-index: 3;
+    position: relative;
+}
+
+
+

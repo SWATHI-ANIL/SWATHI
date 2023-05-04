@@ -1,0 +1,75 @@
+body {
+  background-color: lightslategrey;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  font-size: 2rem;
+}
+
+.box {
+  /* content-box */
+  background-color: red;
+  text-align: center;
+
+  /* height,width */
+  height: 200px;
+  width: 400px;
+}
+
+/* create another box */
+
+.box:first-of-type {
+  /* padding-* */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+
+  /* border-* */
+  /* border-width: 50px;
+  border-color: yellow;
+  border-style: solid; */
+
+  /* margin-* */
+  /* margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px; */
+
+  /* show margin,padding 1 value, 2 value, 3 value and 4 value form */
+
+  /* aut, but width must be set */
+  /* margin:0 auto; */
+}
+
+/* margin collapse :last-of-type */
+.box:last-of-type {
+  /* margin-top: 30px; */
+}
+
+/* make both boxes identical */
+.box {
+  padding: 40px;
+  margin: 40px;
+  border: 40px solid yellow;
+  width: 200px;
+  height: 200px;
+}
+/* copy padding,margin and border to .box */
+.box:first-of-type {
+  box-sizing: border-box;
+  /* to show same width */
+  margin-left: calc(40px + 40px + 40px);
+}
+
+/* so if you see, even though we give width,
+still we have to calculate padding and border
+to find the components exact width
+and this is difficult
+*/

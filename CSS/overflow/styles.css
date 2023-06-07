@@ -1,0 +1,108 @@
+.container {
+  margin-inline: 100px;
+  background-color: aqua;
+
+  /* display: flex;
+      flex-direction: column;
+      align-items: center; */
+}
+
+.hide {
+  display: none;
+}
+
+/* add border,and bg to p */
+
+p {
+  /* text-align: center; */
+  background-color: bisque;
+  border: 1px solid red;
+
+  /* try re-sizing browser window */
+  /* "THINK OF DIFFERENT SCREENS" */
+
+  /* WE HAVE A BACKGROUND FOR P, SO LIMIT IT */
+
+  /* default */
+  /* width: auto; */
+
+  /* with short text */
+  /* add width for desktop */
+  /* width:700px; */
+
+  /* add width for mobile */
+  /* width: 300px; */
+
+  /* add long text */
+
+  /* responsive, no need of media-query */
+  /* set an upper and lower bound */
+  /* max-width: 800px; */
+  /* min-width: 300px; */
+
+  /* width:30px */
+  /* "now we have an overflow" */
+
+  /* setting px is extrinsic */
+  /* we can set width depending on the content len: INTRINSIC */
+
+  /* width: min-content; */
+  /* takes the width of LONGEST WORD */
+
+  /* width: auto; */
+  /* line-breaks, but not the least */
+
+  /* width: max-content; */
+  /* no wraps */
+
+  width: fit-content;
+  /* max-content for fitting content */
+  /* auto for overflowing */
+}
+
+/* p.auto {
+  width: auto;
+}
+
+p.min {
+  width: min-content;
+}
+
+p.max {
+  width: max-content;
+}
+
+p.fit {
+  width: fit-content;
+} */
+
+/* overflow */
+#overflow-container {
+  /* background-color: rgb(1, 42, 42);
+  color: aliceblue;
+
+  padding: 10px 20px;
+  width: 400px;
+  height: 500px; */
+
+  /* add a div below
+    to show overflowing content
+    */
+
+  /* overflow: visible; */
+  /* default */
+
+  /* overflow: hidden; */
+  /* in-accessible for user */
+
+  /* overflow: scroll; */
+  /* now user can scroll */
+
+  /* overflow-x and overflow-y */
+}
+
+#adjacent-box{
+    /* background-color: rebeccapurple;
+    height: 200px; */
+}
+

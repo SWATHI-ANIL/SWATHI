@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    gap: 1rem;
+    /* grid-template-columns: repeat(4, 1fr); */
+  
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five";
+  
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+  }
+  
+  @media (min-width: 40rem) {
+    .container {
+      grid-template-areas:
+        "one one two five"
+        "three four four five";
+    }
+  }
+  
+  .box {
+    padding: 2rem;
+    min-height: 10rem;
+    border-radius: 0.5rem;
+    box-shadow: 2.5rem 3.75rem 3rem rgb(205, 244, 205);
+  }
+  
+  .grid-col-span-2 {
+    grid-column: span 2;
+  }
+  
+  /* .box:last-child {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-row-end: span 2;
+    grid-row: 1/3;
+    grid-row: 1 / span 2;
+    background-color: aqua !important;
+  }
+  
+  .box:nth-child(3) {
+    background-color: red !important;
+  } */
+  
+  .container .box1 {
+    background-color: saddlebrown;
+    grid-area: one;
+  }
+  
+  .container .box2 {
+    background-color: salmon;
+    grid-area: two;
+  }
+  
+  .container .box3 {
+    background-color: sandybrown;
+    grid-area: three;
+  }
+  
+  .container .box4 {
+    background-color: seagreen;
+    grid-area: four;
+  }
+  
+  .container .box5 {
+    background-color: seashell;
+    grid-area: five;
+  }
+  

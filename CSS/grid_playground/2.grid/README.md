@@ -1,0 +1,31 @@
+## Terminology
+
+- Grid line
+  - horizontal and vertical lines
+  - starts from 1
+- Grid track
+  - space between two lines
+  - row-track and column-track
+- Grid cell
+- Grid-area
+- Gaps
+  - gutter between tracks
+- grid container
+- grid item
+- intrinsic sizing
+  - 'auto'
+    - size according to content
+    - if fr is not specified takes all available space
+  - min-content
+  - max-content
+  - fit-content(upperLimit)
+  - `fr`
+    - only in grid layout
+    - get the remain space after laying out other items and grid-gap
+  - minmax()?
+    - define a min and max value for track
+  - repeat()
+  - `auto-fill` and `auto-fit`
+    - with repeat, minmax and auto-fit/auto-fill you don't have to specify track count
+    - `auto-fill` create empty tracks when there aren't enough items to fill
+    - `auto-fit` when there aren't enough items to fill, it will grow the items to fill empty space. In short, there wouldn't be any empty space

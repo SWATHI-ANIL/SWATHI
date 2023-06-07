@@ -1,0 +1,86 @@
+/* resetting browser default styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace;
+}
+
+nav {
+  background-color: #88958d;
+  padding: 1rem 0.75rem;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  /* to promote nav to next layer */
+  /* try removing the z-index to see the difference */
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  font-size: large;
+  font-weight: 400;
+  color: #ddf2eb;
+}
+
+section > div {
+  padding: 5rem 0.75rem;
+}
+
+section > div * {
+  display: inline-block;
+}
+
+.brand {
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  position: sticky;
+  top: 110px;
+  color: #606d5d;
+}
+
+.brand > div {
+  /* nearest positioned parent for img icon */
+  position: relative;
+  border: 1px solid #D3CDD7;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  background-color: #DDF2EB;
+}
+
+.brand > div > img {
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  margin-block: auto;
+  left: -25px;
+
+  /* centring trick */
+  /* left:0;
+  right:0;
+  margin-inline: auto; */
+
+
+}
+
+.content {
+  width: 60%;
+}
+
+.content > p {
+  padding-block-end: 2rem;
+  color: #4e0a34;
+}
+
+

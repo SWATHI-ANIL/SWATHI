@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiger</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- icons -->
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#nav"
+    tabindex="0"
+  >
+    <!-- scroll top -->
+    <!-- positioning -->
+    <div
+      class="bg-warning rounded-circle position-fixed d-flex align-items-center justify-content-center"
+      style="width: 60px; height: 60px; bottom: 10px; right: 10px"
+    >
+      <a type="button" href="#hero">
+        <!-- icon -->
+        <i class="bi bi-chevron-double-up fs-1 text-light-emphasis"></i>
+        <!-- icon -->
+      </a>
+    </div>
+    <!-- scroll top -->
+
+    <!-- navbar -->
+    <!-- dark variant, collapse and hamburger, nav-item -->
+    <nav
+      id="nav"
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark px-md-3 px-lg-5"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#hero">World Wildlife</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- species -->
+            <li class="nav-item">
+              <a class="nav-link" href="#species">Species</a>
+            </li>
+            <!-- species -->
+            <!-- ecology & behaviour -->
+            <li class="nav-item">
+              <a class="nav-link" href="#ecology">Ecology & Behaviour</a>
+            </li>
+            <!-- ecology & behaviour -->
+
+            <!-- population -->
+            <li class="nav-item">
+              <a class="nav-link" href="#population">Population</a>
+            </li>
+            <!-- population -->
+          </ul>
+          <!-- search -->
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search about tiger"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <!-- search -->
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- hero -->
+    <!-- bs grid system -->
+    <!-- typography -->
+    <!-- Images -->
+    <section id="hero" class="bg-light py-5">
+      <div class="container py-5 px-2">
+        <div class="row g-5">
+          <article class="col col-md">
+            <h1 class="display-1">Tiger</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              consectetur, vitae cupiditate distinctio, eaque rem qui assumenda
+              quod ad quam voluptas sed quae cum! Reprehenderit nesciunt, quo
+              laborum maiores velit, quae laudantium dolorem cupiditate rem
+              consequatur impedit. Dignissimos minus totam error? Praesentium
+              dolore delectus error eveniet ratione cupiditate eaque
+              necessitatibus.
+            </p>
+          </article>
+
+          <div
+            class="col-12 col-md d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="img-fluid rounded"
+              src="https://wallpapers.com/images/featured/97d6a6hmzdcz5ru0.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero -->
+
+    <!-- species -->
+    <!-- tab, tab panel -->
+    <section id="species" class="container py-5 px-2">
+      <h2 class="display-5 pb-3">Species</h2>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <button
+            class="nav-link active"
+            data-bs-target="#etymology-tab-pane"
+            data-bs-toggle="tab"
+          >
+            Etymology
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            data-bs-target="#taxonomy-tab-pane"
+            data-bs-toggle="tab"
+          >
+            Taxonomy
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content px-4 py-3 lh-lg">
+        <div id="etymology-tab-pane" class="tab-pane fade show active">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            id nisi fuga. A harum ratione unde! Fugiat sunt esse quam recusandae
+            libero nulla necessitatibus aperiam totam. Quod, laboriosam aliquam.
+            Esse!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            molestiae esse! Iure mollitia voluptatem autem blanditiis at impedit
+            illum id exercitationem similique itaque quae reiciendis repudiandae
+            ea tempore nesciunt dolore eum, facilis cum. Ratione accusamus
+            veniam consectetur animi facilis. Fuga, excepturi praesentium libero
+            omnis eaque quaerat odit ex voluptatibus expedita!
+          </p>
+        </div>
+        <div id="taxonomy-tab-pane" class="tab-pane fade">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus eum fugit debitis amet ipsam facilis nemo voluptatem.
+            Explicabo, veniam cumque! Vero consequuntur totam sunt saepe rerum
+            ad nesciunt doloribus, eligendi enim. Temporibus impedit provident
+            non itaque quibusdam. Quaerat dolore accusantium porro ducimus totam
+            earum voluptatem sit laudantium quisquam aspernatur. Obcaecati amet
+            maiores laboriosam et. Cumque tempore ut veritatis ducimus facere!
+            Quis asperiores similique nisi vel officia, sunt ducimus aliquam ut
+            fugiat animi tenetur provident quae in deserunt error nihil! Et rem
+            maxime dolorem fugiat eveniet vitae laborum voluptates consequuntur,
+            voluptas quae reprehenderit, voluptatibus expedita, quos voluptate
+            incidunt eaque praesentium quasi. Amet ab expedita iusto temporibus
+            placeat, aspernatur veritatis eius quos doloribus at! Quod
+            laboriosam harum aut eum doloremque facilis. Laudantium asperiores,
+            sapiente, fugit quae dolorem in voluptatum aperiam a aspernatur
+            facilis assumenda reprehenderit, voluptatem veritatis vero tempore
+            aliquid voluptates consequatur commodi iure accusantium quas!
+            Doloribus quod nesciunt, distinctio sit delectus modi ducimus dolore
+            qui voluptates reiciendis iure enim ab voluptatum nihil fugiat odit
+            veritatis animi impedit error consectetur iusto asperiores.
+            Accusamus consequuntur reprehenderit consectetur ullam sit
+            laudantium, eum ipsum recusandae labore in, nesciunt voluptas
+            itaque, ipsam eaque iusto! Tempora aut nihil asperiores tempore iste
+            vel ut suscipit voluptatum? Perspiciatis, placeat.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- species -->
+
+    <!-- ecology -->
+    <!-- card -->
+    <section id="ecology" class="bg-light">
+      <div class="container py-5 px-2">
+        <h2 class="display-5 pb-3">Ecology and behaviour</h2>
+        <div
+          class="row justify-content-center gap-5 gap-md-3 gap-lg-4 px-4 px-sm-0"
+        >
+          <div class="col-12 col-md-5 col-lg-3 card">
+            <img
+              class="img-fluid pt-2 rounded rounded-3 rounded-bottom-0"
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Haifa_White_Tigers-9129-13.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">White tiger</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis illum debitis sequi! Amet, ipsa itaque!
+              </p>
+              <button class="btn btn-link">Know More</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3 card border border-warning">
+            <img
+              class="img-fluid pt-2 rounded rounded-3 rounded-bottom-0"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/800px-Walking_tiger_female.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bengal Tiger</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Sunderban Forest</h6>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis illum debitis sequi! Amet, ipsa itaque!
+              </p>
+              <button class="btn btn-primary">Know More</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3 card">
+            <img
+              class="img-fluid pt-2 rounded rounded-3 rounded-bottom-0"
+              src="https://images.unsplash.com/photo-1551972251-12070d63502a?auto=format&fit=crop&w=800&q=80"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">African tiger</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis illum debitis sequi! Amet, ipsa itaque!
+              </p>
+              <button class="btn btn-outline-primary">Know More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ecology -->
+
+    <!-- population -->
+    <!-- typography -->
+    <section id="population" class="container py-5 lh-lg">
+      <h2 class="display-5">Wild Tiger Population</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+        amet ratione iste itaque illum, eos suscipit id magnam quas cupiditate,
+        rerum dolores ea eligendi voluptate adipisci voluptatibus repellat!
+        Perspiciatis assumenda inventore eligendi iste eum, illum, consequatur
+        architecto hic aliquid id qui adipisci ducimus accusamus? Expedita
+        doloribus suscipit, sunt in odio explicabo dolore accusantium commodi
+        voluptate laborum impedit repellendus doloremque ut sequi, ducimus
+        excepturi totam, nulla maiores perspiciatis ratione quod non
+        consequatur. Voluptates fuga doloremque id sapiente magni natus
+        reprehenderit sequi! Quo atque officia suscipit consectetur mollitia
+        velit ipsam magni sunt nisi nesciunt, nostrum.
+      </p>
+      <p>
+        Consequuntur rem nostrum unde in harum aperiam? Aspernatur veritatis
+        incidunt sed ducimus ipsa? Sapiente quam debitis voluptate quidem
+        quibusdam! Assumenda animi culpa ex dignissimos cum, tempora saepe
+        soluta, tempore, voluptatum consequatur aperiam. Quia maxime aliquam
+        nostrum iusto. A amet placeat ab debitis, reiciendis est, numquam
+        sapiente nostrum commodi ea autem totam. Consequatur animi, officia quis
+        iure cum quisquam dolor earum. Libero, dolorum, amet esse atque maxime
+        ab possimus consequatur aut incidunt animi, hic ipsam ea non cumque
+        culpa nostrum consequuntur nisi iure dignissimos. Blanditiis harum
+        reprehenderit aliquam illum velit, consequuntur, sunt possimus totam non
+        nulla placeat facere culpa animi laudantium commodi molestiae fuga
+        dolor. Sapiente provident eveniet
+      </p>
+    </section>
+    <!-- population -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

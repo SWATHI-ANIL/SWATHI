@@ -1,0 +1,32 @@
+* {
+  box-sizing: content-box;
+}
+
+p {
+  font-size: 2rem;
+}
+
+p:first-of-type {
+  background-color: rgb(187, 187, 231);
+}
+
+p:last-of-type {
+  background-color: rgb(200, 228, 162);
+}
+
+div {
+  height: 100px;
+  background-color: blue;
+}
+
+strong {
+  background-color: yellowgreen;
+}
+
+p {
+  /* block */
+  display: inline-block;
+  width: 40%;
+
+  vertical-align: top;
+}

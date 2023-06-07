@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+li{
+    counter-increment: my-awesome-counter;
+    font-size: 1.75rem;
+}
+
+li::before{
+    content: "Chapter " counter(my-awesome-counter)":";
+  
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,21 @@
+p{
+    color:red;
+}
+
+.para{
+    color:bisque
+}
+
+h2+p.para{
+    color:green;
+}
+
+
+
+
+
+
+
+
+
+

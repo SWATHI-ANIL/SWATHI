@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<!-- <html lang="en" data-bs-theme="dark"> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons and Button groups</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="d-none">Hello</div>
+
+    <!-- breakpoint -->
+    <div class="d-none bg-danger-subtle px-4 p-md-5">
+      <p class="display-3 text-lg-end text-center text-md-start">We are learning Bootstrap</p>
+    </div>
+    <!-- breakpoint -->
+
+    <!-- colors -->
+    <div class="bg-black p-3">
+      <p class="text-bg-success text-info display-1">Shihab</p>
+    </div>
+    <!-- colors -->
+
+    <!-- typography -->
+    <section class="my-5 py-5 d-none">
+      <h2>Typography</h2>
+
+      <!-- tags -->
+      <h1>Hello</h1>
+      <h2>Hello</h2>
+      <h6>Hello</h6>
+
+      <!-- class -->
+      <!-- when semantics prevent you from using tags -->
+      <p class="h1">Hello</p>
+      <p class="h2">Hello</p>
+      <p class="h6">Hello</p>
+
+      <!-- text-body-* -->
+      <h3>Entri <small class="text-body-tertiary">Elevate</small></h3>
+
+      <!-- display heading -->
+      <p class="display-1">Hello</p>
+      <p class="display-2">Hello</p>
+      <p class="display-6">Hello</p>
+
+      <!-- lead. to make stand out -->
+      <p>Best quality products at cheap rates</p>
+      <p class="lead">Best quality products at cheap rates</p>
+
+      <!-- inline text elements -->
+      <p>Lorem ipsum dolor sit <mark>amet.</mark></p>
+      <p>Lorem ipsum dolor sit <small>amet.</small></p>
+      <p>Lorem ipsum dolor sit <del>amet.</del></p>
+      <p>Lorem ipsum dolor sit <s>amet.</s></p>
+      <p>Lorem ipsum dolor sit <u>amet.</u></p>
+
+      <p>Lorem ipsum dolor sit <span class="mark">amet.</span></p>
+      <p>Lorem ipsum dolor sit <span class="small">amet.</span></p>
+      <p>
+        Lorem ipsum dolor sit
+        <span class="text-decoration-line-through">amet.</span>
+      </p>
+      <p>
+        Lorem ipsum dolor sit
+        <span class="text-decoration-underline">amet.</span>
+      </p>
+
+      <p>Lorem ipsum dolor <abbr title="sit">sit</abbr> amet.</p>
+
+      <!-- alignment -->
+      <p class="text-center">Lorem ipsum dolor sit amet.</p>
+      <p class="text-end">Lorem ipsum dolor sit amet.</p>
+      <p class="text-start">Lorem ipsum dolor sit amet.</p>
+
+      <p class="text-center text-lg-start">
+        RESPONSIVE Lorem ipsum dolor sit amet.
+      </p>
+
+      <!-- list  -->
+      <ul>
+        <li>Apple</li>
+        <li>Cake</li>
+        <li>Kiwi</li>
+      </ul>
+
+      <!-- unstyled. applicable only to immediate children -->
+      <ul class="list-unstyled">
+        <li>Apple</li>
+        <li>Cake</li>
+        <li>Kiwi</li>
+      </ul>
+
+      <!-- inline -->
+      <ul class="list-inline">
+        <li class="list-inline-item">Home</li>
+        <li class="list-inline-item">About</li>
+        <li class="list-inline-item">Careers</li>
+      </ul>
+
+      <!-- wrapping -->
+      <!-- wrap by default -->
+      <div class="bg-danger-subtle" style="width: 5rem">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quae.
+        </p>
+      </div>
+
+      <!-- no-wrap -->
+      <div class="bg-warning-subtle text-nowrap" style="width: 5rem">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quae.
+        </p>
+      </div>
+
+      <!-- word-break, text-wrap don't work -->
+      <div class="bg-info-subtle text-break" style="width: 5rem">
+        <p>qweewroldjalsdnlasldknalsdjlj</p>
+      </div>
+
+      <!-- transform -->
+      <p class="text-uppercase">lorem, ipsum dolor.</p>
+      <p class="text-lowercase">Lorem, ipsum dolor.</p>
+      <p class="text-capitalize">Lorem, ipsum dolor.</p>
+
+      <!-- h1-h6 affect font-size,font-weight and line-height -->
+      <!-- font-size, only font-size -->
+      <p class="fs-1">Lorem ipsum dolor sit amet.</p>
+      <p class="fs-2">Lorem ipsum dolor sit amet.</p>
+      <p class="fs-6">Lorem ipsum dolor sit amet.</p>
+
+      <!-- font-weight -->
+      <p class="fw-bold">Lorem ipsum dolor sit amet.</p>
+      <p class="fw-semibold">Lorem ipsum dolor sit amet.</p>
+      <p class="fw-light">Lorem ipsum dolor sit amet.</p>
+      <p class="fw-normal">Lorem ipsum dolor sit amet.</p>
+
+      <!-- font-style -->
+      <p class="fst-italic">Lorem ipsum dolor sit amet.</p>
+      <p class="fst-normal">Lorem ipsum dolor sit amet.</p>
+
+      <!-- line-height -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        illum, suscipit sint, consequatur labore nostrum, maiores animi et
+        voluptatum laborum quibusdam quam eveniet quisquam esse sed omnis. Ex
+        quos, delectus quasi, sed vitae nihil repellendus dignissimos explicabo
+        dolor dicta libero porro laboriosam quo eaque culpa nesciunt quam
+        facilis ducimus architecto sapiente consectetur? Vel quod soluta
+        accusamus minima dolor accusantium eaque facere ducimus officiis
+        praesentium distinctio quos voluptates consequuntur numquam molestias
+        eveniet, incidunt ea labore at officia esse tempora id omnis? Deleniti
+        illo vel dolorum quod nesciunt vero veritatis ipsum eum aut? Excepturi,
+        facere nemo? Quidem eligendi repellendus nisi quibusdam ducimus rerum
+        odit accusantium veniam beatae, atque excepturi quam magnam optio
+        obcaecati aliquid dolorum hic repellat. Vel accusantium eos ad! Debitis
+        eveniet voluptate adipisci in beatae et tempore molestiae porro, saepe
+        eum accusamus! Nulla nostrum provident esse, quos nisi quam animi illum
+        veritatis et aliquid ullam accusantium quisquam facilis ex tempore
+        possimus omnis distinctio saepe iste quibusdam. Soluta pariatur,
+        consectetur vitae amet ea, necessitatibus voluptates, iste facilis nisi
+        excepturi minima natus error praesentium nesciunt beatae et. Natus ullam
+        quibusdam atque perspiciatis nulla. Error nulla explicabo fuga molestiae
+        ipsum veritatis tempora dolor, nobis quibusdam id at, corporis illum
+        dolorem? Quo, ab quasi?
+      </p>
+      <p class="lh-1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        illum, suscipit sint, consequatur labore nostrum, maiores animi et
+        voluptatum laborum quibusdam quam eveniet quisquam esse sed omnis. Ex
+        quos, delectus quasi, sed vitae nihil repellendus dignissimos explicabo
+        dolor dicta libero porro laboriosam quo eaque culpa nesciunt quam
+        facilis ducimus architecto sapiente consectetur? Vel quod soluta
+        accusamus minima dolor accusantium eaque facere ducimus officiis
+        praesentium distinctio quos voluptates consequuntur numquam molestias
+        eveniet, incidunt ea labore at officia esse tempora id omnis? Deleniti
+        illo vel dolorum quod nesciunt vero veritatis ipsum eum aut? Excepturi,
+        facere nemo? Quidem eligendi repellendus nisi quibusdam ducimus rerum
+        odit accusantium veniam beatae, atque excepturi quam magnam optio
+        obcaecati aliquid dolorum hic repellat. Vel accusantium eos ad! Debitis
+        eveniet voluptate adipisci in beatae et tempore molestiae porro, saepe
+        eum accusamus! Nulla nostrum provident esse, quos nisi quam animi illum
+        veritatis et aliquid ullam accusantium quisquam facilis ex tempore
+        possimus omnis distinctio saepe iste quibusdam. Soluta pariatur,
+        consectetur vitae amet ea, necessitatibus voluptates, iste facilis nisi
+        excepturi minima natus error praesentium nesciunt beatae et. Natus ullam
+        quibusdam atque perspiciatis nulla. Error nulla explicabo fuga molestiae
+        ipsum veritatis tempora dolor, nobis quibusdam id at, corporis illum
+        dolorem? Quo, ab quasi?
+      </p>
+      <p class="lh-sm">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        illum, suscipit sint, consequatur labore nostrum, maiores animi et
+        voluptatum laborum quibusdam quam eveniet quisquam esse sed omnis. Ex
+        quos, delectus quasi, sed vitae nihil repellendus dignissimos explicabo
+        dolor dicta libero porro laboriosam quo eaque culpa nesciunt quam
+        facilis ducimus architecto sapiente consectetur? Vel quod soluta
+        accusamus minima dolor accusantium eaque facere ducimus officiis
+        praesentium distinctio quos voluptates consequuntur numquam molestias
+        eveniet, incidunt ea labore at officia esse tempora id omnis? Deleniti
+        illo vel dolorum quod nesciunt vero veritatis ipsum eum aut? Excepturi,
+        facere nemo? Quidem eligendi repellendus nisi quibusdam ducimus rerum
+        odit accusantium veniam beatae, atque excepturi quam magnam optio
+        obcaecati aliquid dolorum hic repellat. Vel accusantium eos ad! Debitis
+        eveniet voluptate adipisci in beatae et tempore molestiae porro, saepe
+        eum accusamus! Nulla nostrum provident esse, quos nisi quam animi illum
+        veritatis et aliquid ullam accusantium quisquam facilis ex tempore
+        possimus omnis distinctio saepe iste quibusdam. Soluta pariatur,
+        consectetur vitae amet ea, necessitatibus voluptates, iste facilis nisi
+        excepturi minima natus error praesentium nesciunt beatae et. Natus ullam
+        quibusdam atque perspiciatis nulla. Error nulla explicabo fuga molestiae
+        ipsum veritatis tempora dolor, nobis quibusdam id at, corporis illum
+        dolorem? Quo, ab quasi?
+      </p>
+      <p class="lh-md">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        illum, suscipit sint, consequatur labore nostrum, maiores animi et
+        voluptatum laborum quibusdam quam eveniet quisquam esse sed omnis. Ex
+        quos, delectus quasi, sed vitae nihil repellendus dignissimos explicabo
+        dolor dicta libero porro laboriosam quo eaque culpa nesciunt quam
+        facilis ducimus architecto sapiente consectetur? Vel quod soluta
+        accusamus minima dolor accusantium eaque facere ducimus officiis
+        praesentium distinctio quos voluptates consequuntur numquam molestias
+        eveniet, incidunt ea labore at officia esse tempora id omnis? Deleniti
+        illo vel dolorum quod nesciunt vero veritatis ipsum eum aut? Excepturi,
+        facere nemo? Quidem eligendi repellendus nisi quibusdam ducimus rerum
+        odit accusantium veniam beatae, atque excepturi quam magnam optio
+        obcaecati aliquid dolorum hic repellat. Vel accusantium eos ad! Debitis
+        eveniet voluptate adipisci in beatae et tempore molestiae porro, saepe
+        eum accusamus! Nulla nostrum provident esse, quos nisi quam animi illum
+        veritatis et aliquid ullam accusantium quisquam facilis ex tempore
+        possimus omnis distinctio saepe iste quibusdam. Soluta pariatur,
+        consectetur vitae amet ea, necessitatibus voluptates, iste facilis nisi
+        excepturi minima natus error praesentium nesciunt beatae et. Natus ullam
+        quibusdam atque perspiciatis nulla. Error nulla explicabo fuga molestiae
+        ipsum veritatis tempora dolor, nobis quibusdam id at, corporis illum
+        dolorem? Quo, ab quasi?
+      </p>
+      <p class="lh-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        illum, suscipit sint, consequatur labore nostrum, maiores animi et
+        voluptatum laborum quibusdam quam eveniet quisquam esse sed omnis. Ex
+        quos, delectus quasi, sed vitae nihil repellendus dignissimos explicabo
+        dolor dicta libero porro laboriosam quo eaque culpa nesciunt quam
+        facilis ducimus architecto sapiente consectetur? Vel quod soluta
+        accusamus minima dolor accusantium eaque facere ducimus officiis
+        praesentium distinctio quos voluptates consequuntur numquam molestias
+        eveniet, incidunt ea labore at officia esse tempora id omnis? Deleniti
+        illo vel dolorum quod nesciunt vero veritatis ipsum eum aut? Excepturi,
+        facere nemo? Quidem eligendi repellendus nisi quibusdam ducimus rerum
+        odit accusantium veniam beatae, atque excepturi quam magnam optio
+        obcaecati aliquid dolorum hic repellat. Vel accusantium eos ad! Debitis
+        eveniet voluptate adipisci in beatae et tempore molestiae porro, saepe
+        eum accusamus! Nulla nostrum provident esse, quos nisi quam animi illum
+        veritatis et aliquid ullam accusantium quisquam facilis ex tempore
+        possimus omnis distinctio saepe iste quibusdam. Soluta pariatur,
+        consectetur vitae amet ea, necessitatibus voluptates, iste facilis nisi
+        excepturi minima natus error praesentium nesciunt beatae et. Natus ullam
+        quibusdam atque perspiciatis nulla. Error nulla explicabo fuga molestiae
+        ipsum veritatis tempora dolor, nobis quibusdam id at, corporis illum
+        dolorem? Quo, ab quasi?
+      </p>
+
+      <!-- monospace -->
+      <p class="font-monospace">Lorem ipsum dolor sit amet.</p>
+    </section>
+    <!-- typography -->
+
+    <!-- sizing -->
+    <section class="d-none">
+      <h2>Sizing</h2>
+
+      <h4>wrt Parent</h4>
+      <div class="bg-warning-subtle" style="height: 100px">
+        <div class="bg-warning h-50 w-50"></div>
+      </div>
+
+      <h4>wrt viewport</h4>
+      <div class="bg-dark vh-100 min-vw-100"></div>
+    </section>
+    <!-- sizing -->
+
+    <!-- spacing -->
+    <section class="my-5 py-5 bg-light d-none">
+      <h2>Spacing</h2>
+
+      <div class="bg-danger-subtle" style="height: 500px">
+        <div class="bg-danger p-2 m-5 my-5 border border-dark border-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+          exercitationem explicabo aliquam doloribus quod odio, provident nisi
+          blanditiis voluptatum corporis magni dolor porro, iure sit? Nihil
+          natus explicabo porro ducimus.
+        </div>
+
+        <!-- centering -->
+        <div class="mx-auto p-2 bg-light text-center" style="width: 300px">
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+    <!-- spacing -->
+
+    <!-- buttons -->
+    <section class="my-5 py-5 bg-light d-none">
+      <h2>Button</h2>
+      <button type="button" class="btn">Base</button>
+      <button type="button" class="btn btn-primary">Base Primary</button>
+      <button type="button" class="btn btn-secondary">Base Secondary</button>
+
+      <!-- types -->
+      <button class="btn btn-close"></button>
+      <button class="btn btn-link">Link</button>
+      <button class="btn btn-dark">Dark</button>
+
+      <!-- outlined -->
+      <button class="btn btn-outline-primary">Primary</button>
+      <button class="btn btn-outline-light">Light</button>
+
+      <!-- sizes -->
+      <button class="btn btn-primary btn-lg">Large Button</button>
+      <button class="btn btn-primary btn-md">Medium(Default) Button</button>
+      <button class="btn btn-primary btn-sm">Small Button</button>
+
+      <!-- disabled -->
+      <button type="button" class="btn btn-primary" disabled>
+        Base Primary Disabled
+      </button>
+
+      <!-- block -->
+      <div class="d-grid gap-2 my-2">
+        <button class="btn btn-primary">Button</button>
+        <button class="btn btn-primary">Button</button>
+      </div>
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary">Button</button>
+        <button class="btn btn-primary">Button</button>
+      </div>
+
+      <div class="d-flex gap-2 justify-content-end">
+        <button class="btn btn-primary">Button</button>
+        <button class="btn btn-primary">Button</button>
+      </div>
+
+      <!-- toggle -->
+      <button
+        type="button"
+        class="btn btn-success btn-lg mx-5 active"
+        data-bs-toggle="button"
+        aria-pressed="true"
+      >
+        Toggle Button
+      </button>
+    </section>
+    <!-- buttons -->
+
+    <!-- LAYOUT -->
+
+    <!-- container -->
+    <section class="my-5 py-5 d-none">
+      <h4>Container</h4>
+      <!-- container -->
+      <div class="container bg-dark-subtle">Hello I'm a container</div>
+      <div class="container-lg bg-dark text-info">Hello I'm a container</div>
+      <div class="container-fluid bg-gradient bg-info">
+        I'm a fluid container
+      </div>
+      <!-- container -->
+    </section>
+    <!-- container -->
+
+    <!-- grid -->
+    <section class="my-5 py-5 bg-light d-none">
+      <h4>Grid</h4>
+      <!-- grid -->
+      <div class="container d-none">
+        <div class="row justify-content-evenly">
+          <div class="col-12 bg-dark text-light">Banana</div>
+          <div class="col-3 bg-danger text-light">Apple</div>
+          <div class="col-3 bg-warning">Orange</div>
+          <div class="col-3 bg-dark text-light">Pineapple</div>
+          <div class="col-6 bg-danger text-light">Kiwi</div>
+          <div class="col-6 bg-warning">Jack Fruit</div>
+        </div>
+      </div>
+      <!-- grid -->
+
+      <!-- grid row-col -->
+      <div class="container d-none">
+        <div class="row row-cols-8">
+          <div class="col bg-dark text-light">Banana</div>
+          <div class="col bg-danger text-light">Apple</div>
+          <div class="col bg-warning">Orange</div>
+          <div class="col bg-dark text-light">Pineapple</div>
+          <div class="col bg-danger text-light">Kiwi</div>
+          <div class="col bg-warning">Jack Fruit</div>
+          <div class="col bg-dark text-light">Banana</div>
+          <div class="col bg-danger text-light">Apple</div>
+          <div class="col bg-warning">Orange</div>
+          <div class="col bg-dark text-light">Pineapple</div>
+          <div class="col bg-danger text-light">Kiwi</div>
+          <div class="col bg-warning">Jack Fruit</div>
+        </div>
+      </div>
+      <!-- grid row-col -->
+
+      <!-- columns -->
+      <div class="container d-none">
+        <div class="row justify-content-end">
+          <div class="col-2 bg-dark text-light">Banana</div>
+          <div class="col-4 bg-danger text-light">Apple</div>
+          <div class="col-4 bg-warning">Orange</div>
+          <div class="col-2 bg-dark text-light">Pineapple</div>
+          <div class="col-5 bg-danger text-light">Kiwi</div>
+          <div class="col-5 bg-warning">Jack Fruit</div>
+        </div>
+      </div>
+      <!-- columns -->
+
+      <!-- columns order -->
+      <div class="container d-none">
+        <div class="row">
+          <div class="col order-last bg-dark text-light">Banana</div>
+          <div class="col bg-danger text-light">Apple</div>
+          <div class="col order-first bg-warning">Orange</div>
+        </div>
+      </div>
+      <!-- columns order -->
+
+      <!-- columns offset -->
+      <div class="container d-none">
+        <div class="row">
+          <div class="col-2"><div class="bg-dark text-light">Banana</div></div>
+          <div class="col-2"><div class="bg-danger text-light">Apple</div></div>
+          <div class="col-2"><div class="offset-2 bg-warning">Orange</div></div>
+        </div>
+      </div>
+      <!-- columns offset -->
+
+      <!-- grid gutter -->
+      <div class="container text-center">
+        <div class="row gx-2">
+          <div class="col-2">
+            <div class="bg-warning">Custom column padding</div>
+          </div>
+          <div class="col-2">
+            <div class="bg-danger-subtle">Custom column padding</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3 bg-danger-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-warning-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-danger-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-warning-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-danger-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-warning-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-danger-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-danger-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-warning-subtle">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 bg-danger-subtle">Row column</div>
+          </div>
+        </div>
+      </div>
+      <!-- grid gutter -->
+    </section>
+    <!-- grid -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

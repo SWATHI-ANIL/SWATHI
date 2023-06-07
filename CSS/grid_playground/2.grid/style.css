@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* simple example */
+.container {
+  display: grid;
+  width: 90%;
+  margin-inline: auto;
+
+  background-color: slategrey;
+  margin-block-end: 2rem;
+}
+
+.box1 {
+  background-color: slateblue;
+}
+
+.box2 {
+  background-color: chocolate;
+}
+
+.box3 {
+  background-color: crimson;
+}
+
+.box4 {
+  background-color: cyan;
+}
+
+.box5 {
+  background-color: yellowgreen;
+}
+
+.simple {
+  /* grid-template-columns: 5em 100px 30%;
+    grid-template-rows: 200px auto;
+    gap: 10px; */
+}
+
+.simple {
+  grid-template-columns: fit-content(5em) auto max-content;
+  grid-template-rows: 200px auto;
+  gap: 10px;
+}
+
+.simple1 {
+  grid-template-columns: 1fr auto 1fr;
+}
+.simple2 {
+  grid-template-columns: 1fr auto minmax(auto, 1fr);
+}
+.simple3 {
+  grid-template-columns: 1fr auto minmax(500px, 1fr);
+}
+.simple4 {
+  grid-template-columns: 1fr auto minmax(0, 1fr);
+}
+
+.less_auto_fit {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.less_auto_fill {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.more_auto_fit{
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 10px;
+}
+
+.more_auto_fill{
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 10px;
+}

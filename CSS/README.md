@@ -101,7 +101,7 @@
   - scroll, hidden, visible
   - min-content, max-content, fit-content
 - visibility
-  - hidden vs display:none
+  - hidden(still part of dom) vs display:none
   - collapse
   - visible
 

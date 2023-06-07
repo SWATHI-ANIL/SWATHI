@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+/* min_max */
+.min_max.wrapper {
+  display: grid;
+  background-color: rgb(64, 54, 54);
+  color: white;
+  gap: 10px;
+  padding: 1.2rem;
+
+  grid-template-columns: 800px;
+
+  /* how to avoid overflow */
+  grid-template-columns: min(800px, 100%);
+}
+
+.min_max.wrapper .item {
+  background-color: seagreen;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+/* min_max */
+
+/* minmax */
+.minmax.wrapper {
+  display: grid;
+  background-color: rgb(64, 54, 54);
+  color: white;
+  gap: 10px;
+  padding: 1.2rem;
+
+  grid-template-columns: 1fr 1fr;
+  /* trying setting a min so that don't shrink beyond that */
+  /* approach 2: setting on grid structure */
+  /* grid-template-columns: minmax(400px, 1fr) 1fr; */
+}
+
+.minmax.wrapper .item {
+  background-color: salmon;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+
+.minmax.wrapper .item:first-of-type {
+  /* approach1: this we are setting on grid children */
+  min-width: 400px;
+}
+/* minmax */
+
+/* ------------------------------------ */
+
+/* repeat */
+.repeat.wrapper {
+  background-color: sandybrown;
+
+  display: grid;
+  padding: 1.2rem;
+
+  justify-content: center;
+  gap: 10px;
+
+  /* grid-template-columns: 50px 50px 50px 50px 50px; */
+  grid-template-columns: repeat(5, 50px);
+}
+
+.repeat.wrapper > div {
+  padding: 1rem;
+  border: 1px solid red;
+  background-color: skyblue;
+}
+/* repeat */
+
+/* ------------------------------------ */
+
+/* autofill */
+.autofill.wrapper {
+  background-color: slateblue;
+
+  display: grid;
+  padding: 1.2rem;
+
+  /* justify-content: center; */
+  gap: 10px;
+
+  /* with less items */
+  /* fit tries to fit things, by creating ultra-wide columns */
+  /* fill create as many columns as possible */
+
+  /* grid-template-columns: repeat(auto-fill, 100px); */
+  grid-template-columns: repeat(auto-fit, 100px);
+  /* justify-content: space-evenly; */
+}
+
+.autofill.wrapper > div {
+  padding: 1rem;
+  border: 1px solid red;
+  background-color: steelblue;
+  min-height: 100px;
+  color: wheat;
+}
+/* autofill */
+
+/* fluid_grid */
+.fluid_grid {
+  padding: 16px;
+  display: grid;
+  gap: 16px;
+  background-color: slategrey;
+
+  grid-template-columns: repeat(auto-fill, 150px);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+  /* overflow */
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(550px,100%), 1fr));
+
+  /* distribute white space */
+  justify-content: space-evenly;
+}
+
+.fluid_grid .item {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+}
+/* fluid_grid */

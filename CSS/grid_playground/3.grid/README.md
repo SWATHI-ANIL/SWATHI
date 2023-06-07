@@ -1,0 +1,41 @@
+- implicit grid
+  - control flow direction using `grid-auto-flow`
+    - not similar as `flex-direction` as we don't have primary and secondary axis in grid
+    - grid has rows and columns
+- show devtools
+  - grid line
+  - size
+  - track
+- explicit grid
+    - grid-template-columns
+        - the values are hard limits and aren't suggestions
+    - fr
+      - flexible
+      - grows to accommodate child
+      - it distribute available space
+    - grid-template-rows
+    - gap
+    - no overflow, instead it squeeze the item
+    - repeat()
+- alignment
+  - row
+    - justify-content
+      - distribute cell
+    - justify-item
+      - within cell
+    - justify-self
+      - applied on child
+      - to overrule 
+  - column
+    - need a height to be set for container
+    - algin-content
+    - align-items
+    - align-self
+- fluid grid
+  - min(), max()
+  - repeat()
+  - minmax
+    - specify a max and min
+    - flexible unit has to come last
+  - auto-fill
+  - auto-fit

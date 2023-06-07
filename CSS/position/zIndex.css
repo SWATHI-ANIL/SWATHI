@@ -1,7 +1,6 @@
 /* bg color container */
 .container{
     background-color: burlywood;
-    padding-block: 20px;
 }
 
 /* 
@@ -40,7 +39,7 @@ box 1 appear on top
 and positioned elements are layed out"
 */
 .box-1{
-    position: relative;
+    /* position: relative; */
 }
 
 /* 
@@ -48,14 +47,14 @@ now add relative to box 2
 "dom over won"
 */
 .box-2{
-    position: relative;
+    /* position: relative; */
 }
 
 /* 
 z-index to box 1
 */
 .box-1{
-    z-index:1;
+    /* z-index:1; */
 }
 
 /* 
@@ -64,8 +63,8 @@ add position relative
 "only works on positioned elements"
 */
 .box-3{
-    z-index: 3;
-    position: relative;
+    /* z-index: 3; */
+    /* position: relative; */
 }
 
 
